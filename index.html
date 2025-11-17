@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellty Frontend Assignment - Checkbox Component</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section: Done Buttons -->
+        <section class="done-buttons-section">
+            <button class="done-button">Done</button>
+            <button class="done-button">Done</button>
+            <button class="done-button">Done</button>
+        </section>
+
+        <!-- Middle Section: Checkbox List with States -->
+        <section class="checkbox-list-section">
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-1" class="custom-checkbox">
+                <label for="checkbox-1">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-2" class="custom-checkbox" checked>
+                <label for="checkbox-2">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual checkmark-style"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-3" class="custom-checkbox" checked>
+                <label for="checkbox-3">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-4" class="custom-checkbox" checked>
+                <label for="checkbox-4">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-5" class="custom-checkbox" checked>
+                <label for="checkbox-5">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-6" class="custom-checkbox" checked>
+                <label for="checkbox-6">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-7" class="custom-checkbox" checked>
+                <label for="checkbox-7">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+
+            <div class="checkbox-item">
+                <input type="checkbox" id="checkbox-8" class="custom-checkbox">
+                <label for="checkbox-8">
+                    <span class="checkbox-label">All pages</span>
+                    <span class="checkbox-visual"></span>
+                </label>
+            </div>
+        </section>
+
+        <!-- Right Section: Dropdown/Select Menu -->
+        <section class="dropdown-section">
+            <div class="dropdown-container">
+                <button class="dropdown-trigger" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="dropdown-label">All pages</span>
+                    <span class="dropdown-checkbox"></span>
+                </button>
+
+                <div class="dropdown-menu" role="listbox">
+                    <div class="dropdown-item" role="option">
+                        <span class="dropdown-item-label">Page 1</span>
+                        <span class="dropdown-item-checkbox"></span>
+                    </div>
+                    <div class="dropdown-item" role="option">
+                        <span class="dropdown-item-label">Page 2</span>
+                        <span class="dropdown-item-checkbox"></span>
+                    </div>
+                    <div class="dropdown-item" role="option">
+                        <span class="dropdown-item-label">Page 3</span>
+                        <span class="dropdown-item-checkbox"></span>
+                    </div>
+                    <div class="dropdown-item" role="option">
+                        <span class="dropdown-item-label">Page 4</span>
+                        <span class="dropdown-item-checkbox"></span>
+                    </div>
+                    <button class="done-button dropdown-done">Done</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
