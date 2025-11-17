@@ -1,3 +1,6 @@
+<img width="816" height="523" alt="image" src="https://github.com/user-attachments/assets/9971540c-3258-4b5e-b185-45767e4ea7b6" />
+
+
 # Ellty Frontend Test Assignment
 
 A pixel-perfect implementation of a checkbox component with multiple states and interactive dropdown functionality.
